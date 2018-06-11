@@ -10,6 +10,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -20,8 +22,9 @@ public class testclass2 {
 	@Test
 	public void googletest() throws InterruptedException
 	{
-	//System.setProperty("webdriver.chrome.driver","/Users/rkamal/git/testautomationpoc/mavenlearning/chromedriver");
+	System.setProperty("webdriver.chrome.driver","/Users/rkamal/chromedriver");
 	
+		
 		 WebDriver driver = new ChromeDriver();
 		  driver.get("http://www.google.com/xhtml");
 		  Thread.sleep(5000);  // Let the user actually see something!
