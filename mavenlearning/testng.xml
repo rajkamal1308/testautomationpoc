@@ -6,7 +6,9 @@
       <class name="mavenlearning.testclass"/>
     </classes>  -->
    <packages>
-   <package name ="mavenlearning" />
+   <!--<package name ="mavenlearning" />-->
+   <package name ="Runner" />
+   
    </packages>
     
   </test> <!-- Test -->
