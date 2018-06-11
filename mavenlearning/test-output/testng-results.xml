@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-06-11T06:03:00Z" name="Suite" finished-at="2018-06-11T06:03:00Z" duration-ms="30">
+    <groups>
+    </groups>
+    <test started-at="2018-06-11T06:03:00Z" name="Test" finished-at="2018-06-11T06:03:00Z" duration-ms="30">
+      <class name="mavenlearning.testclass">
+        <test-method signature="sub()[pri:0, instance:mavenlearning.testclass@23348b5d]" started-at="2018-06-11T14:03:00Z" name="sub" finished-at="2018-06-11T14:03:00Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method signature="sum()[pri:0, instance:mavenlearning.testclass@23348b5d]" started-at="2018-06-11T14:03:00Z" name="sum" finished-at="2018-06-11T14:03:00Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- mavenlearning.testclass -->
+      <class name="mavenlearning.testclass2">
+        <test-method signature="sub()[pri:0, instance:mavenlearning.testclass2@20d525]" started-at="2018-06-11T14:03:00Z" name="sub" finished-at="2018-06-11T14:03:00Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method signature="sum()[pri:0, instance:mavenlearning.testclass2@20d525]" started-at="2018-06-11T14:03:00Z" name="sum" finished-at="2018-06-11T14:03:00Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- mavenlearning.testclass2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
